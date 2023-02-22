@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container.flex-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoName {
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.phoneNumber {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li a,
+.phoneNumber a {
+    color: #e01818;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar ul li a {
+    padding-right: 20px;
+    /* padding-top: 40px; */
+}
+
+/* .navbar ul{
+    padding-top: 40px;
+}
+
+.phoneNumber {
+    padding-top: 58px;
+} */
