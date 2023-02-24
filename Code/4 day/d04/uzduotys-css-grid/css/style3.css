@@ -9,6 +9,7 @@
 
 .container div {
     border-radius: 5px;
+    padding: 5px;
     color: white;
 }
 
@@ -30,6 +31,7 @@
 .Sidebar2 {
     background-color: #a845a8;
     grid-column: 4/-1;
+    /* min-height: 100px; */
 }
 
 .Footer {
@@ -42,9 +44,11 @@
     .container {
         grid-template-rows: 100px auto auto 100px;
     }
+
     .Content {
         grid-column: 2/-1;
     }
+
     .Sidebar2 {
         grid-column: 1/-1;
     }
@@ -52,9 +56,12 @@
 
 @media screen and (max-width: 500px) {
     .container {
-        grid-template-rows: 100px auto auto auto 100px;
+        grid-template-rows: 50px auto auto auto 50px;
     }
-    .Sidebar, .Content, .Sidebar2{
+
+    .Sidebar,
+    .Content,
+    .Sidebar2 {
         grid-column: 1/-1;
     }
 }
