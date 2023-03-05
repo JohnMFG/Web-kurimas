@@ -256,3 +256,29 @@ Modelis: acer peizažas
 Kaina: 1240
 Spalvos: balta ir juoda
 */
+console.log('--11')
+let pcs = [
+    { "modelis":"lenovo idėja", "kaina":1234, "spalva":{"raudona":1,"žalia":2} },
+    { "modelis":"hp monstras", "kaina":800, "spalva":{"juoda":2,"geltona":0} },
+    { "modelis":"toshiba sriuba", "kaina":256, "spalva":{"mėlyna":3,"žalia":1} },
+    { "modelis":"dell apskritimas", "kaina":697, "spalva":{"juoda":1,"balta":2} },
+    { "modelis":"acer peizažas", "kaina":620, "spalva":{"juoda":4,"balta":2} },
+    { "modelis":"apple 256", "kaina":2560, "spalva":{"balta":3,"juoda":1} },
+    { "modelis":"asus pokšt", "kaina":1001, "spalva":{"juoda":2,"geltona":3} }
+    ];
+
+    console.log(pcs[0].spalva.raudona)
+    for(let i=0;i<pcs.length;i++){
+        if(pcs[i].kaina * 2 <= 1600 && (pcs[i].spalva.balta >=2 || pcs[i].spalva.juoda >=2)){
+
+            if((pcs[i].spalva.balta >=2 || pcs[i].spalva.juoda >=2)){
+                console.log(`Modelis: ${pcs[i].modelis}`)
+                console.log(`Kaina: ${pcs[i].kaina * 2}`)
+                console.log(`Spalvos ${pcs[i].spalva[0]}`)
+                console.log()
+            }else{
+
+            }
+        }
+    }
+    // console.log(pcs[0].modelis)
