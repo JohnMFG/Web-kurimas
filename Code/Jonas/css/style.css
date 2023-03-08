@@ -157,6 +157,22 @@ button {
     padding-bottom: 20px;
 }
 
+.watch-video {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.watch-video img {
+    padding-right: 20px;
+}
+
+.aboutMe-text {
+    width: 630px;
+}
+
+
+
+
 .input-row {
     flex-direction: column;
 }
