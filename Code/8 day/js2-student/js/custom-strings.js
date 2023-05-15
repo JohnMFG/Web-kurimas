@@ -97,7 +97,7 @@ console.log(counter(string2))
 /* 09.
 Parašyti kodą, kuris generuotų atsitiktinį stringą iš lotyniškų mažųjų raidžių. Stringo ilgis 3 simboliai.
 */
-console.log("--10")
+console.log("--9")
 let alphabet = "abcdefghijklmnopqrstuvwxyz"
 let randomCharacter = alphabet[Math.floor(Math.random() * alphabet.length)]
 console.log(randomCharacter)
@@ -105,7 +105,7 @@ console.log(randomCharacter)
 /* 10. 
 Parašykite kodą, kuris generuotų atsitiktinį stringą su 10 atsitiktine tvarka išdėliotų žodžių, o žodžius generavimui imtų iš 8-me uždavinyje pateiktų dviejų stringų. Žodžiai neturi kartotis. (reikės masyvo)
 */
-console.log("--11")
+console.log("--10")
 string1 = "Don't Be a Menace to South Central While Drinking Your Juice in the Hood"
 string2 = "Tik nereikia gąsdinti Pietų Centro, geriant sultis pas save kvartale"
 let connectedWords = string1 + " " + string2
